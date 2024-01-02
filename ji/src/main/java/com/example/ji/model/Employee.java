@@ -1,10 +1,6 @@
 package com.example.ji.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import org.springframework.data.annotation.Id;
-import org.springframework.data.couchbase.core.mapping.Document;
-import java.util.*;
 
 public class Employee {
     @Id
